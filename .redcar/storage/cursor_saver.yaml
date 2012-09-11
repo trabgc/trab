@@ -1,0 +1,212 @@
+--- 
+cursor_positions: 
+  - :path: app/views/variables/_new_seat.html.erb
+    :cursor_offset: 456
+    :timestamp: 2012-09-08 16:59:19 -03:00
+    :selection_offset: 455
+    :block_selection_mode: false
+  - :path: app/views/values/new.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-09-08 16:33:54 -03:00
+  - :path: app/views/values/_form.html.erb
+    :cursor_offset: 128
+    :timestamp: 2012-09-08 16:33:54 -03:00
+  - :path: app/views/values/index.html.erb
+    :cursor_offset: 282
+    :timestamp: 2012-09-08 16:33:54 -03:00
+  - :path: config/application.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-08 16:30:21 -03:00
+  - :path: script/rails
+    :cursor_offset: 182
+    :timestamp: 2012-09-08 16:30:21 -03:00
+  - :path: app/assets/javascripts/premises.js.coffee
+    :cursor_offset: 0
+    :timestamp: 2012-09-08 16:35:09 -03:00
+  - :path: app/assets/javascripts/values.js.coffee
+    :cursor_offset: 0
+    :timestamp: 2012-09-08 16:33:54 -03:00
+  - :path: app/assets/javascripts/variables.js.coffee
+    :cursor_offset: 0
+    :timestamp: 2012-09-08 16:32:04 -03:00
+  - :path: app/assets/javascripts/application.js
+    :cursor_offset: 640
+    :timestamp: 2012-09-08 20:44:22 -03:00
+  - :path: db/migrate/20120909015137_drop_premise.rb
+    :cursor_offset: 69
+    :timestamp: 2012-09-08 22:53:01 -03:00
+  - :path: db/migrate/20120909015352_create_premises.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-08 22:53:52 -03:00
+  - :path: db/migrate/20120909211132_drop_table_premise.rb
+    :cursor_offset: 83
+    :timestamp: 2012-09-09 18:13:46 -03:00
+  - :path: db/migrate/20120910004015_add_rule_id_to_premises.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-09 21:40:15 -03:00
+  - :path: db/migrate/20120910003943_add_rule_id_to_conclusions.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-09 21:39:43 -03:00
+  - :path: app/views/values/show.html.erb
+    :cursor_offset: 92
+    :timestamp: 2012-09-08 21:59:30 -03:00
+  - :path: app/views/rules/_premise_list.html.erb
+    :cursor_offset: 137
+    :timestamp: 2012-09-09 21:49:32 -03:00
+  - :path: app/models/variable.rb
+    :cursor_offset: 89
+    :timestamp: 2012-09-08 17:41:38 -03:00
+  - :path: app/controllers/conclusions_controller.rb
+    :cursor_offset: 1051
+    :timestamp: 2012-09-09 22:15:09 -03:00
+  - :path: app/views/rules/_conclusion_list.html.erb
+    :cursor_offset: 463
+    :timestamp: 2012-09-09 22:14:33 -03:00
+  - :path: app/views/premises/_form.html.erb
+    :cursor_offset: 450
+    :timestamp: 2012-09-09 21:53:05 -03:00
+  - :path: app/views/variables/_new_value.html.erb
+    :cursor_offset: 62
+    :timestamp: 2012-09-08 20:52:23 -03:00
+    :selection_offset: 96
+    :block_selection_mode: false
+  - :path: app/models/conclusion.rb
+    :cursor_offset: 78
+    :timestamp: 2012-09-09 22:09:40 -03:00
+  - :path: db/migrate/20120910021128_remove_system_id_from_rules.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-09 23:11:28 -03:00
+  - :path: db/migrate/20120910021228_add_premise_id_to_rules.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-09 23:12:28 -03:00
+  - :path: db/migrate/20120910022815_remove_variable_id_from_systems.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-09 23:28:15 -03:00
+  - :path: db/migrate/20120910015041_add_system_id_to_rules.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-09 22:50:41 -03:00
+  - :path: app/models/system.rb
+    :cursor_offset: 73
+    :timestamp: 2012-09-09 23:13:45 -03:00
+  - :path: app/models/rule.rb
+    :cursor_offset: 122
+    :timestamp: 2012-09-09 23:04:42 -03:00
+  - :path: app/controllers/rules_controller.rb
+    :cursor_offset: 1002
+    :timestamp: 2012-09-10 00:08:21 -03:00
+  - :path: app/views/systems/index.html.erb
+    :cursor_offset: 136
+    :timestamp: 2012-09-09 23:44:08 -03:00
+  - :path: app/views/variables/_value_list.html.erb
+    :cursor_offset: 48
+    :timestamp: 2012-09-08 17:31:05 -03:00
+  - :path: app/views/systems/show.html.erb
+    :cursor_offset: 59
+    :timestamp: 2012-09-09 23:44:50 -03:00
+  - :path: app/views/test/_system_list.html.erb
+    :cursor_offset: 301
+    :timestamp: 2012-09-10 15:54:48 -03:00
+  - :path: config/routes.rb
+    :cursor_offset: 1942
+    :timestamp: 2012-09-10 15:36:50 -03:00
+  - :path: app/views/variables/show.html.erb
+    :cursor_offset: 235
+    :timestamp: 2012-09-09 21:50:15 -03:00
+  - :path: app/views/variables/edit.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-09-08 16:32:04 -03:00
+  - :path: app/views/variables/new.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-09-08 16:32:04 -03:00
+  - :path: app/controllers/variables_controller.rb
+    :cursor_offset: 867
+    :timestamp: 2012-09-08 22:00:50 -03:00
+    :selection_offset: 884
+    :block_selection_mode: false
+  - :path: app/views/variables/index.html.erb
+    :cursor_offset: 119
+    :timestamp: 2012-09-08 16:32:04 -03:00
+    :selection_offset: 154
+    :block_selection_mode: false
+  - :path: app/views/variables/_form.html.erb
+    :cursor_offset: 439
+    :timestamp: 2012-09-10 16:44:14 -03:00
+  - :path: app/models/premise.rb
+    :cursor_offset: 108
+    :timestamp: 2012-09-10 17:23:48 -03:00
+  - :path: app/views/test/start.html.erb
+    :cursor_offset: 67
+    :timestamp: 2012-09-10 16:57:56 -03:00
+  - :path: app/views/systems/new.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-09-09 22:47:47 -03:00
+  - :path: app/views/systems/_rule_list.html.erb
+    :cursor_offset: 415
+    :timestamp: 2012-09-09 23:00:32 -03:00
+  - :path: app/views/systems/edit.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-09-09 22:47:47 -03:00
+  - :path: app/views/test/_end.html.erb
+    :cursor_offset: 73
+    :timestamp: 2012-09-11 00:44:23 -03:00
+  - :path: app/controllers/values_controller.rb
+    :cursor_offset: 1596
+    :timestamp: 2012-09-08 22:01:00 -03:00
+    :selection_offset: 1617
+    :block_selection_mode: false
+  - :path: app/views/rules/_form.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-09-09 21:35:49 -03:00
+  - :path: app/controllers/test_controller.rb
+    :cursor_offset: 1452
+    :timestamp: 2012-09-11 11:17:42 -03:00
+  - :path: app/views/rules/update_value_menu.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-09-11 14:51:02 -03:00
+  - :path: app/views/premises/index.html.erb
+    :cursor_offset: 294
+    :timestamp: 2012-09-09 20:08:33 -03:00
+  - :path: app/views/rules/show.html.erb
+    :cursor_offset: 203
+    :timestamp: 2012-09-11 12:10:59 -03:00
+  - :path: app/views/test/start_test.html.erb
+    :cursor_offset: 238
+    :timestamp: 2012-09-10 16:52:58 -03:00
+    :selection_offset: 241
+    :block_selection_mode: false
+  - :path: app/controllers/systems_controller.rb
+    :cursor_offset: 985
+    :timestamp: 2012-09-11 15:40:53 -03:00
+  - :path: app/models/value.rb
+    :cursor_offset: 103
+    :timestamp: 2012-09-11 15:40:01 -03:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 331
+    :timestamp: 2012-09-11 15:51:00 -03:00
+  - :path: app/views/systems/_form_rule.html.erb
+    :cursor_offset: 60
+    :timestamp: 2012-09-09 23:56:20 -03:00
+  - :path: app/views/rules/_form_premise.html.erb
+    :cursor_offset: 386
+    :timestamp: 2012-09-11 15:23:46 -03:00
+    :selection_offset: 527
+    :block_selection_mode: false
+  - :path: app/views/systems/_form.html.erb
+    :cursor_offset: 733
+    :timestamp: 2012-09-11 16:08:17 -03:00
+    :selection_offset: 732
+    :block_selection_mode: false
+  - :path: app/controllers/premises_controller.rb
+    :cursor_offset: 889
+    :timestamp: 2012-09-11 15:18:51 -03:00
+    :selection_offset: 918
+    :block_selection_mode: false
+  - :path: app/views/conclusions/_form.html.erb
+    :cursor_offset: 536
+    :timestamp: 2012-09-09 21:09:51 -03:00
+    :selection_offset: 0
+    :block_selection_mode: false
+  - :path: app/views/rules/_form_conclusion.html.erb
+    :cursor_offset: 310
+    :timestamp: 2012-09-11 16:22:31 -03:00
+files_to_retain: 0

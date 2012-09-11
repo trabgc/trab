@@ -1,0 +1,19 @@
+<h1>Listing systems</h1>
+
+<table>
+  <tr>
+    <th>Description</th>
+    <th>Premise</th>
+    <th></th>
+  </tr>
+
+<% systems.each do |system| %>
+  <tr>
+    <td><%= system.description %></td>
+    <td><%= system.premise_id %></td>
+    <td><%= link_to 'Iniciar', :controller => 'test', :action => 'start_test', :system_id => system.id %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />

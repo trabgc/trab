@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Description:</b>
+  <%= @system.description %>
+</p>
+
+<p>
+  <b>Premise:</b>
+  <%= @system.premise_id %>
+</p>
+
+<%= render :partial => "rule_list", :locals => { :rules => @system.rules } %>
+
+<%= render :partial => "form_rule", :locals => { :rule => Rule.new(:system_id => @system.id) } %>
+
+
+<%= link_to 'Edit', edit_system_path(@system) %> |
+<%= link_to 'Back', systems_path %>

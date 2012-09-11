@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Projeto02</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  
+  
+</head>
+<body>
+<%= link_to "Variaveis", variables_path %>
+<%= link_to "Sistemas", systems_path %>
+<%= link_to "Simulações", '/test/start' %>
+
+
+<%= yield %>
+
+
+</body>
+</html>

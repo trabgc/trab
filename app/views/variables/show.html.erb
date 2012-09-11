@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Description:</b>
+  <%= @variable.description %>
+</p>
+
+<%= render :partial=> "value_list", :locals=> { :values=> @variable.values } %>
+
+<%= render :partial=> "new_value", :locals=> { :value=> Value.new(:variable_id=> @variable.id) } %>
+
+<%= link_to 'Edit', edit_variable_path(@variable) %> |
+<%= link_to 'Back', variables_path %>

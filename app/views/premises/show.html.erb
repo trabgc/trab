@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Variable:</b>
+  <%= @premise.variable_id %>
+</p>
+
+<p>
+  <b>Value:</b>
+  <%= @premise.value_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_premise_path(@premise) %> |
+<%= link_to 'Back', premises_path %>

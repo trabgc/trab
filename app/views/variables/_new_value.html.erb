@@ -1,0 +1,17 @@
+<p>
+  <b>New value</b>
+</p>
+
+<%= form_for(value) do |f| %>
+
+  <%= f.hidden_field :variable_id %>
+
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </div>
+  
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

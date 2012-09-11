@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Description:</b>
+  <%= @rule.description %>
+</p>
+
+<%= render :partial => "premise_list", :locals => { :premises=> @rule.premises } %>
+
+<p>
+  <b>Nova Premissa</b>
+  <%= render :partial => "form_premise", :locals => { :premise => Premise.new(:rule_id => @rule.id) } %>
+</p>
+
+<%= render :partial => "conclusion_list", :locals => { :conclusions => @rule.conclusions } %>
+
+<%= render :partial => "form_conclusion", :locals => { :conclusion => Conclusion.new(:rule_id => @rule.id) }%>
+
+<%= link_to 'Edit', edit_rule_path(@rule) %> |
+<%= link_to 'Back', rules_path %>

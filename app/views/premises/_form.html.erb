@@ -1,0 +1,29 @@
+<%= form_for(@premise) do |f| %>
+  <% if @premise.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@premise.errors.count, "error") %> prohibited this premise from being saved:</h2>
+
+      <ul>
+      <% @premise.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :variable_id %><br />
+    <%= f.number_field :variable_id %>
+  </div>
+  <div class="field">
+    <%= f.label :value_id %><br />
+    <%= f.number_field :value_id %>
+  </div>
+  <div class="field">
+    <%= f.label :rule_id %><br />
+    <%= f.number_field :rule_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

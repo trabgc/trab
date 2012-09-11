@@ -1,0 +1,21 @@
+<h1>Listing conclusions</h1>
+
+<table>
+  <tr>
+    <th>Description</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% conclusions.each do |conclusion| %>
+  <tr>
+    <td><%= conclusion.description %></td>
+    <td><%= link_to 'Show', conclusion %></td>
+    <td><%= link_to 'Edit', edit_conclusion_path(conclusion) %></td>
+    <td><%= link_to 'Destroy', conclusion, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />

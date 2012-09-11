@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Description:</b>
+  <%= @system.description %>
+</p>
+
+
+<%= form_tag do %>
+<p>
+  <b>Pergunta:</b> <%= @variable.description %>
+</p>
+
+<div class="field">
+  <% @variable.values.each do |value| %>
+
+
+  <%= radio_button_tag(:value, value.id) %>
+  <%= label_tag(("value_" + value.id.to_s), value.description) %>
+  
+  <% end %>
+</div>
+
+<div class="actions">
+  <%= submit_tag("Proximo") %>
+</div>
+
+<% end %>
+
